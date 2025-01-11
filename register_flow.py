@@ -46,9 +46,9 @@ def banco():
 
    datas= date.today()
 
-   print(">>> Seja Bem vindo!\n")
+   print(" >>> Seja Bem vindo!\n")
    barra()
-   print("--> Tudo pronto para iniciarmos nosso fluxo trabalho")
+   print(" --> Tudo pronto para iniciarmos nosso fluxo trabalho")
    time.sleep(1)
    while True:
       try:
@@ -75,16 +75,16 @@ def banco():
          session.add(nova_moto)
          session.commit()
 
-         print("\n -> Novo registro ...\n")
+         print("\n --> Novo registro ...\n")
 
-         sair= int(input("DIGITE: \n--> 1: continuar\n--> 2: encerrar conexao com o Banco\n\n"))
+         sair= int(input(" >>> DIGITE: \n --> 1: continuar (O) \n --> 2: encerrar conexao com o Banco (X) \n\n =  "))
          if sair == 1:
             pass
          elif sair == 2:
-            print("Finalizando")
+            print(" --> Finalizando")
             barra()
             break
       except ValueError:
-         print("--> valor incorreto!")
+         print(" --> valor incorreto!")
 
 banco()
