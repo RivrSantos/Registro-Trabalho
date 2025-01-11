@@ -5,7 +5,7 @@ Registro-Trabalho
 
 Objetivo:
 
-  Trabalhar em ambiente Desktop,
+  Trabalhar em ambiente Desktop, atraves de interface CLI do Python
   
   Funçao principal:
       Coletar, armazenar, e registrar dados para analise de negocios
